@@ -14,7 +14,7 @@ build/
 
 - `git diff`: look at changes not commited.
 - `git diff --staged`: find the changed files that are not committed(first you need to add the files, and not commit it)
-- `git commit -a -m "comments"`: stage every file and commit with comments. Best command ever
+- `git commit -a -m "comments"`: stage every tracked file and commit with comments. Best command ever
 - `git commit --amend`: used when you changed some file after commit and do not want to commit again.
 - `git rm <file>`: `--cached` stop track the file, `--force` also delete it from the disk and not able to recover it from the trash.
 - `git log -p -2`: view the changes of last two commit and log
