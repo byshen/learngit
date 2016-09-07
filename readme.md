@@ -22,7 +22,9 @@ build/
 - `git reset HEAD <file>`: to unstage file.
 - `git checkout -- <filename>`:dangerous one. Do not use.
 - `git config --global alias.last 'log -1 HEAD'`: show last with `git last`
+
 ---
+
 Learn some interesting commands
 - `git branch`
 - `git checkout <branch_name>`
