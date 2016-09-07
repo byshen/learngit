@@ -22,6 +22,13 @@ build/
 - `git reset HEAD <file>`: to unstage file.
 - `git checkout -- <filename>`:dangerous one. Do not use.
 - `git config --global alias.last 'log -1 HEAD'`: show last with `git last`
+---
+Learn some interesting commands
+- `git branch`
+- `git checkout <branch_name>`
+- `git checkout -b <branch_name>`
+- `git rebase`: difficult to use, basicly it means to apply changes on your base to master.
+
 ### Some problems I met and solutions
 - I use `git rm` to remove a file and found it is removed from disk. How to recover it ?
 ```
