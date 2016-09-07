@@ -21,8 +21,11 @@ build/
 - `git log --stat`: view all.
 - `git reset HEAD <file>`: to unstage file.
 - `git checkout -- <filename>`:dangerous one. Do not use.
-
+- `git config --global alias.last 'log -1 HEAD'`: show last with `git last`
 ### Some problems I met and solutions
 - I use `git rm` to remove a file and found it is removed from disk. How to recover it ?
-`git fetch`
-`git checkout origin/master <file>` 
+```
+git fetch
+git checkout origin/master <file>
+```
+
